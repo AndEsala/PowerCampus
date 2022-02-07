@@ -1,0 +1,11 @@
+@startuml Matricula
+class Marticula {
+    - Estudiante[] listaEst
+    - Docente[] listaDoc
+    - Horario[] horario
+
+    + Marticula()
+    + GettersSetters()
+    + validaciones()
+}
+@enduml

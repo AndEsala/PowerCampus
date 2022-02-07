@@ -1,0 +1,12 @@
+@startuml Materia
+class Materia {
+    - String dia
+    - String codigoMateria
+    - String nombreMateria
+    - String grupo
+    - int credito
+    - String horario
+    - String lugar
+    - Docente docente
+}
+@enduml

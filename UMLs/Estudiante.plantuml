@@ -1,0 +1,6 @@
+@startuml Estudiante
+    class Estudiante extends Persona {
+              
+        - int semestre
+    }
+@enduml

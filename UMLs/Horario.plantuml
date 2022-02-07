@@ -1,0 +1,12 @@
+@startuml Horario
+class Horario {
+    - String ccEst
+    - Materia[] materias
+
+    + Horario(int tam)
+    + GettersSetters()
+    + validaciones()
+    + addMateria(Materia sub)
+    + mostrarHorario()
+}
+@enduml

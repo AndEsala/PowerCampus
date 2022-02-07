@@ -1,0 +1,9 @@
+@startuml Persona
+class Persona {
+    - String cedula
+    - String nombre
+    - String sede
+    - String correo 
+    - String password 
+}
+@enduml
